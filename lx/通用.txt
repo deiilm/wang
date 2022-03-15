@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bilibili游戏登录就这？</title>
+
+    <!-- 引入bootstrap框架文件 css文件中自己写了引入字体 -->
+    <link rel="stylesheet" href="./game/css/bootstrap.min.css" />
+
+    <!-- 动画库 -->
+    <link rel="stylesheet" href="./game/css/animate.min.css" />
+
+    <!-- 重置样式 css文件就用css的引入方式 -->
+    <link rel="stylesheet" href="./game/css/reset.css" />
+
+    <!-- 公共样式 less文件就用less的引入方式 -->
+    <link rel="stylesheet/less" href="./game/css/common.less" />
+
+    <!-- index.less 当前界面单独拥有的样式 -->
+    <link rel="stylesheet/less" href="./game/css/5.less" />
+</head>
+<body>
+	<div class="header">
+		<ul><li><a href="index.html"><img src="game/imge/logo.e4330df.svg" ></a></li>
+	<li class="ycli"><a href="index.html"><span class="glyphicon glyphicon-blackboard" ></span>首页</a></li>
+	<li class="ycli"><a href="1.html">排行榜</a></li>
+	<li class="ycli"><a href="2.html">发现</a></li>
+	<li class="ycli"><a href="3.html">wiki</a></li>
+	<li class="ycli"><a href="4.html">大会员礼包</a></li>
+	<li class="ycli"><a href="5.html">我的</a></li>
+	</ul>
+	<div class="dropdown">
+	  <button class="dropbtn"><span class="glyphicon glyphicon-blackboard" ></span></button>
+	  <div class="dropdown-content">
+	    <a href="index.html">首页</a>
+	    <a href="1.html">排行榜</a>
+	    <a href="2.html">发现</a>
+		<a href="3.html">wiki</a></li>
+	    <a href="4.html">大会员礼包</a>
+	    <a href="5.html">我的</a>
+	  </div>
+	</div>
+	<form class="ssk" action="action">
+	  <input type="text" placeholder="搜索更多游戏&wiki">
+	  <button type=""><i class="glyphicon glyphicon-search"></i></button>
+	</form>
+	</div>
+	
+	
+	
+	
+	
+	<div class="footer">
+		<ul>
+		<li><a href="index.html"><img src="game/imge/logo.e4330df.svg" ></a></li>
+		<li class="ycli"><a href="index.html"></span> 游戏中心</a></li>
+		<li class="ycli"><a href="javascript:void(0)">账号安全</a></li>
+		<li class="ycli"><a href="javascript:void(0)">找回密码</a></li>
+		<li class="ycli"><a href="javascript:void(0)">家长监护</a></li>
+		<li class="ycli"><a href="javascript:void(0)">加入我们</a></li>
+		<li class="ycli"><a href="javascript:void(0)">用户协议</a></li>
+		<li class="ycli"><a href="javascript:void(0)">隐私政策</a></li>
+		</ul>
+		<div class="fcm"><span>抵制不良游戏&nbsp;拒绝盗版游戏&nbsp;注意自我保护&nbsp;谨防受骗上当&nbsp;适度游戏益脑&nbsp;沉迷游戏伤身&nbsp;合理安排时间&nbsp;享受健康生活
+	</span><br><span>
+	上海宽娱数码科技有限公司&nbsp;|&nbsp;全国文化市场举报电话：12318</span>
+	<br><span>
+	互联网ICP备案：&nbsp;沪ICP备13002172号-3&nbsp;沪ICP证：沪B2-20100043&nbsp;|&nbsp;沪网文[2016]2296-134号
+	</span></div>
+	<div class="gonan">
+		<span>
+		沪公网安备&nbsp;31011002002436&nbsp;号</span>
+	<br><span>
+	COPYRIGHT&nbsp;?&nbsp;2009-2022&nbsp;BILIBILI&nbsp;ALL&nbsp;RIGHTS&nbsp;RESERVED.
+	</span></div>
+	<a id="back" href="#top">
+		  <img src="./game/imge/top.svg" />
+		</a>
+	</div></div>
+	</body>
+	</html>
+	<!-- 引入bootstrap 依赖的 jquery文件 -->
+	<script src="./game/js/jquery.min.js"></script>
+	
+	<!-- 引入bootstrap框架的脚本文件 -->
+	<script src="./game/js/bootstrap.min.js"></script>
+	
+	<!-- 引入less编译器 -->
+	<script src="./game/js/less.min.js"></script>
+	
+	<!-- 引入wow.js懒加载效果 -->
+	<script src="./game/js/wow.min.js"></script>
+	
+	<script>
+	  // wow.js 插件的初始化
+	  new WOW().init();
+		$(document).scroll(function(){
+		  //获取到当前滚动条滚动的位置
+		  var distance = $(this).scrollTop()
+		
+		  //当位置 > 200 就显示 返回顶部，小于200 就显示
+		  if(distance >= 200)
+		  {
+		    //显示返回顶部
+		    $("#back").css({transform:'scale(1)',opacity:1});
+		
+		  }else
+		  {
+		    //不显示
+		    $("#back").css({transform:'scale(0)',opacity:0});
+		  }
+		})
+	</script>

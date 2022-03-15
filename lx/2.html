@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bilibili游戏发现就这？</title>
+
+    <!-- 引入bootstrap框架文件 css文件中自己写了引入字体 -->
+    <link rel="stylesheet" href="./game/css/bootstrap.min.css" />
+
+    <!-- 动画库 -->
+    <link rel="stylesheet" href="./game/css/animate.min.css" />
+
+    <!-- 重置样式 css文件就用css的引入方式 -->
+    <link rel="stylesheet" href="./game/css/reset.css" />
+
+    <!-- 公共样式 less文件就用less的引入方式 -->
+    <link rel="stylesheet/less" href="./game/css/common.less" />
+
+    <!-- index.less 当前界面单独拥有的样式 -->
+    <link rel="stylesheet/less" href="./game/css/2.less" />
+</head>
+<body>
+	<div class="header">
+		<ul><li><a href="index.html"><img src="game/imge/logo.e4330df.svg" ></a></li>
+	<li class="ycli"><a href="index.html"><span class="glyphicon glyphicon-blackboard" ></span>首页</a></li>
+	<li class="ycli"><a href="1.html">排行榜</a></li>
+	<li class="ycli"><a href="2.html">发现</a></li>
+	<li class="ycli"><a href="3.html">wiki</a></li>
+	<li class="ycli"><a href="4.html">大会员礼包</a></li>
+	<li class="ycli"><a href="5.html">我的</a></li>
+	</ul>
+	<div class="dropdown">
+	  <button class="dropbtn"><span class="glyphicon glyphicon-blackboard" ></span></button>
+	  <div class="dropdown-content">
+	    <a href="index.html">首页</a>
+	    <a href="1.html">排行榜</a>
+	    <a href="2.html">发现</a>
+		<a href="3.html">wiki</a></li>
+	    <a href="4.html">大会员礼包</a>
+	    <a href="5.html">我的</a>
+	  </div>
+	</div>
+	<form class="ssk" action="javascript:void(0)">
+	  <input type="text" placeholder="搜索更多游戏&wiki">
+	  <button type=""><i class="glyphicon glyphicon-search"></i></button>
+	</form>
+	</div>
+
+
+<div class="yem">
+	<div class="lbt">
+	<div id="myCarousel" class="carousel slide">
+		<!-- 轮播（Carousel）指标 -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>   
+		<!-- 轮播（Carousel）项目 -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="game/imge/fxlbt1.webp" alt="First slide">
+			</div>
+			<div class="item">
+				<img src="game/imge/fxlbt2.webp" alt="First slide">
+			</div>
+			<div class="item">
+				<img src="game/imge/fxlbt3.webp" alt="First slide">
+			</div>
+		</div>
+		<!-- 轮播（Carousel）导航 -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div> 
+	</div>
+	<div class="yy">
+		<h2>新游预约</h2>
+		<a href="javascript:void(0)" class="more">更多<div class="glyphicon glyphicon-menu-right"></div></a>
+		<div class="divimg"></div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/fxyy1.webp></img></div><span class="yxm">三国擒雄</span>
+			<span>回合战略</span>
+			<span class="pf">评分过少</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/fxyy2.webp></img></div><span class="yxm">桃源深处有人家</span>
+			<span>模拟经营</span>
+			<div class="pf">
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span>9.4</span>
+			</div>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/fxyy3.webp></img></div><span class="yxm">悠悠恋物语</span>
+			<span>角色扮演</span>
+			<span class="pf">评分过少</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/fxyy4.webp></img></div><span class="yxm">泪水与晚安</span>
+			<span>休闲</span>
+			<span class="pf">评分过少</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/fxyy5.webp></img></div><span class="yxm">诸神的征伐</span>
+			<span>策略</span>
+			<span class="pf">评分过少</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/fxyy6.webp></img></div><span class="yxm">少少年刀剑笑</span>
+			<span>角色扮演</span>
+			<span class="pf">评分过少</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/fxyy7.webp></img></div><span class="yxm">炼仙传说</span>
+			<span>角色扮演</span>
+			<span class="pf">评分过少</span>
+		</div>
+		</div>
+	
+	<div class="yy">
+		<h2>哔哩哔哩 (゜-゜)つロ 干杯~</h2>
+		<a href="javascript:void(0)" class="more">更多<div class="glyphicon glyphicon-menu-right"></div></a>
+		<div class="divimg"></div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/gb1.webp></img></div><span class="yxm">魂器学院</span>
+			<span>放置</span>
+			<span class="pf"><span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span>8.2</span>
+				</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/gb2.webp></img></div><span class="yxm">口袋异世界</span>
+			<span>角色扮演</span>
+			<div class="pf">
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span>4.9</span>
+			</div>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/gb3.webp></img></div><span class="yxm">开心动物园</span>
+			<span>模拟经营</span>
+			<span class="pf"><span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span>6.7</span>
+				</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/gb4.webp></img></div><span class="yxm">勇者养成记</span>
+			<span>射击</span>
+			<span class="pf"><span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span>5.3</span>
+				</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/gb5.webp></img></div><span class="yxm">造物梦工厂</span>
+			<span>模拟经营</span>
+			<span class="pf"><span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span>6.8</span>
+				</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/gb6.webp></img></div><span class="yxm">阴阳三国志</span>
+			<span>卡牌</span>
+			<span class="pf"><span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span>4.9</span>
+				</span>
+		</div>
+		<div class="qhyy">
+			<div class="fxyyyj"><img src=game/imge/gb7.webp></img></div><span class="yxm">魔天记</span>
+			<span>角色扮演</span>
+			<span class="pf"><span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span>7.4</span>
+				</span>
+		</div>
+		</div>
+	
+	</div>
+	
+	
+	
+	
+	<div class="footer">
+		<ul>
+		<li><a href="index.html"><img src="game/imge/logo.e4330df.svg" ></a></li>
+		<li class="ycli"><a href="index.html"></span> 游戏中心</a></li>
+		<li class="ycli"><a href="javascript:void(0)">账号安全</a></li>
+		<li class="ycli"><a href="javascript:void(0)">找回密码</a></li>
+		<li class="ycli"><a href="javascript:void(0)">家长监护</a></li>
+		<li class="ycli"><a href="javascript:void(0)">加入我们</a></li>
+		<li class="ycli"><a href="javascript:void(0)">用户协议</a></li>
+		<li class="ycli"><a href="javascript:void(0)">隐私政策</a></li>
+		</ul>
+		<div class="fcm"><span>抵制不良游戏&nbsp;拒绝盗版游戏&nbsp;注意自我保护&nbsp;谨防受骗上当&nbsp;适度游戏益脑&nbsp;沉迷游戏伤身&nbsp;合理安排时间&nbsp;享受健康生活
+	</span><br><span>
+	上海宽娱数码科技有限公司&nbsp;|&nbsp;全国文化市场举报电话：12318</span>
+	<br><span>
+	互联网ICP备案：&nbsp;沪ICP备13002172号-3&nbsp;沪ICP证：沪B2-20100043&nbsp;|&nbsp;沪网文[2016]2296-134号
+	</span></div>
+	<div class="gonan">
+		<span>
+		沪公网安备&nbsp;31011002002436&nbsp;号</span>
+	<br><span>
+	COPYRIGHT&nbsp;©&nbsp;2009-2022&nbsp;BILIBILI&nbsp;ALL&nbsp;RIGHTS&nbsp;RESERVED.
+	</span></div>
+	<a id="back" href="#top">
+		  <img src="./game/imge/top.svg" />
+		</a>
+	</div></div>
+	</body>
+	</html>
+	<!-- 引入bootstrap 依赖的 jquery文件 -->
+	<script src="./game/js/jquery.min.js"></script>
+	
+	<!-- 引入bootstrap框架的脚本文件 -->
+	<script src="./game/js/bootstrap.min.js"></script>
+	
+	<!-- 引入less编译器 -->
+	<script src="./game/js/less.min.js"></script>
+	
+	<!-- 引入wow.js懒加载效果 -->
+	<script src="./game/js/wow.min.js"></script>
+	
+	<script>
+	  // wow.js 插件的初始化
+	  new WOW().init();
+		$(document).scroll(function(){
+		  //获取到当前滚动条滚动的位置
+		  var distance = $(this).scrollTop()
+		
+		  //当位置 > 200 就显示 返回顶部，小于200 就显示
+		  if(distance >= 200)
+		  {
+		    //显示返回顶部
+		    $("#back").css({transform:'scale(1)',opacity:1});
+		
+		  }else
+		  {
+		    //不显示
+		    $("#back").css({transform:'scale(0)',opacity:0});
+		  }
+		})
+	</script>

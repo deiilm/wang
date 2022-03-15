@@ -1,0 +1,170 @@
+.header{padding: 0 5rem;
+		width: 100%;
+		height: 5rem;
+		line-height: 4rem;
+		.dropdown {
+				z-index: 100; position: relative;
+				position: relative;
+				display: inline-block;
+					&:hover .dropdown-content{
+						display: block;
+						background-color: white;
+					}
+		.dropbtn {display: none;
+			height: 5rem;
+			width: 5rem;
+		    background-color: deepskyblue;
+		    color: white;
+			padding: .5rem;
+		    font-size:2rem;
+		    border: none;
+		    cursor: pointer;
+		}
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+		    min-width: 160px;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			a {
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+			&:hover{color:deepskyblue}
+		}
+		}
+		}
+		.ssk{
+		float: right;
+		height: 3rem;
+	}
+	ul{
+		li{margin-left:2rem;
+			float: left;
+		font-size: 1.5rem;
+		display: block;
+		a{
+		&:hover{
+			color:deepskyblue;
+		}
+		color: black;
+		}
+		img{
+			margin-top: .5rem;
+		width:10rem;}
+			span{
+				color: deepskyblue;
+			}
+		}
+	}
+		@media screen and (max-width:780px){
+			ul{.ycli{display: none;}}
+			.dropdown .dropbtn{display: block;}
+		}
+	
+}
+.footer{
+		padding: 0 5rem;
+		bottom:0;
+		float: left;
+		width: 100%;
+		height: 5rem;
+		span{
+			color: #7d7d7d;
+			margin-top:1rem;
+		}
+		.gonan{
+			text-align: right;
+		}
+		.fcm{float: left;
+			text-align: left;
+		}
+		@media screen and (max-width:1015px){
+				 .gonan{margin-left: 12rem;
+					 float:left;
+				 	text-align: left;
+				 }
+				 .fcm{float:left;
+				 	text-align: left;
+				 }
+			}
+			@media screen and (max-width:838px){
+					 .gonan{margin-left: 0rem;
+						 float:left;
+					 	text-align: left;
+					 }
+					 .fcm{float:left;
+					 	text-align: left;
+					 }
+				}
+		
+		ul{
+			border-bottom: solid 1px #7d7d7d;
+			line-height: 4rem;
+			height: 4rem;
+			li{margin-left:2rem;
+				float: left;
+			font-size: 1.5rem;
+			display: block;
+			margin-top: ;
+			a{
+				color: black;
+				&:hover{
+				color:deepskyblue;
+				}
+				}
+			img{
+				margin-top: .5rem;
+				width:10rem;
+				}
+			span{
+				color: deepskyblue;
+				}
+			}
+		}
+	/*返回顶部*/
+	#back{
+	    position: fixed;
+	    right:0;
+	    bottom:2rem;
+	    width:10rem;
+	    z-index:999;
+	    transition:all ease .4s;
+	    transform:scale(0);
+	    opacity: 0;
+	
+	    &:hover{
+	        animation: rubberBand 1s;
+	    }
+	
+	    @keyframes rubberBand {
+	        from {
+	            transform: scale3d(1, 1, 1);
+	        }
+	    
+	        30% {
+	            transform: scale3d(1.25, 0.75, 1);
+	        }
+	    
+	        40% {
+	            transform: scale3d(0.75, 1.25, 1);
+	        }
+	    
+	        50% {
+	            transform: scale3d(1.15, 0.85, 1);
+	        }
+	    
+	        65% {
+	            transform: scale3d(.95, 1.05, 1);
+	        }
+	    
+	        75% {
+	            transform: scale3d(1.05, .95, 1);
+	        }
+	    
+	        to {
+	            transform: scale3d(1, 1, 1);
+	        }
+	    }
+	}
+	}
